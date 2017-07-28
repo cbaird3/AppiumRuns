@@ -38,9 +38,6 @@ public class FirstTest {
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
         capabilities.setCapability("deviceName", "Google");
-        capabilities.setCapability("udid", "HT68P0202694");
-        capabilities.setCapability("deviceName", "Nexus");
-        capabilities.setCapability("udid", "00f4e921d8aeb8ea");
         //capabilities.setCapability(CapabilityType.VERSION, "7.0");
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("app", app.getAbsolutePath());
